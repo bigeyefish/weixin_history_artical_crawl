@@ -1,0 +1,10 @@
+{
+  "wx_his_page_path": "/hisPageData",
+  "wx_his_json_path": "/hisJsonData",
+  "db_name": "wxartical",
+  "db_articalinfo_table": "artical_queue",
+  "db_source_url_table": "request_record",
+  "scrawl_timeout_sec": 300,
+  "request_timeout_sec": 10
+
+}

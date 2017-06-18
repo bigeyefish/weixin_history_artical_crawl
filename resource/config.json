@@ -1,0 +1,20 @@
+{
+  "wx_his_page_path": "/hisPageData",
+  "wx_his_json_path": "/hisJsonData",
+  "db_name": "wxartical",
+  "db_port": "27017",
+  "db_articalinfo_table": "artical_queue",
+  "db_artical_table": "artical",
+  "db_source_url_table": "request_record",
+  "db_biz_map_table":"biz_map",
+  "scrawl_timeout_sec": 300,
+  "request_timeout_sec": 10,
+  "thread_sleep_sec": 2,
+  "result_path": "d:/wx_artical",
+  "verify_code_path": "d:/wx_artical/verify_code",
+  "use_proxy": 0,
+  "temp_dir": "d:/tmp",
+  "chaojiying_account_info": {"username": "fhxysdcz", "password": "1234.abcd", "soft_id": 893138, "retry_times": 5},
+  "verify_code_map": {"penguin": 1901, "sougou": 1006},
+  "scrawl_interval_hour": 6
+}

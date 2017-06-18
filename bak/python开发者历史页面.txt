@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+<script nonce="" type="text/javascript">
+window.__nonce_str = ""
+if (location.href.indexOf("safe=0") == -1 && window.__nonce_str) {
+        window.__moonsafe_csp_offset || (window.__moonsafe_csp_offset = 18);
+        document.write('<meta http-equiv="Content-Security-Policy" content="script-src https: \'unsafe-inline\' \'unsafe-eval\' *.qq.com *.weishi.com'+(window.__nonce_str ? ' \'nonce-' + window.__nonce_str + "\'":"")+ '">');
+
+}
+</script>
+
+        <script nonce="" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd';
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+                params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+            var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "MTYzNTE5ODIwMA==" || '';
+        window.key = params['key'] || "6d0d8d04237042514044e4da0f5d61d75686879200b948c5679a62cc19355f303927681f0fa09cf40feff4cf07a53a083afdbe6daa5f53565494da176f6210873e3313691fde1a3d41d88d0ea4fa6615" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+        <title></title>
+
+<link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.2.0/weui.css">
+<link rel="stylesheet" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/profile/index32c414.css">
+
+    </head>
+    <body id="" class="zh_CN ">
+
+<script type="text/javascript">
+    if (window.location != window.parent.location) {
+        window.location.href = 'http://mp.weixin.qq.com/mp/readtemplate?t=wxm-cannot-open#wechat_redirect';
+    }
+</script>
+<div class="profile_info appmsg">
+    <span class="radius_avatar profile_avatar">
+        <img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM6hTCD50H6PaCspsyUarU0oT7bE3evufzsuDKPZxhYFMQ/0" id="icon">
+    </span>
+    <strong class="profile_nickname">
+        Python开发者
+    </strong>
+    <p class="profile_desc">人生苦短，我用&nbsp;Python。伯乐在线旗下账号「Python开发者」分享&nbsp;Python&nbsp;相关的技术文章、工具资源、精选课程、热点资讯等。</p>
+    <div class="profile_opr" style="display: none;" id="js_button">
+        <a href="javascript:void(0);" id="js_btn_add_contact" class="weui_btn weui_btn_plain_primary" style="display:none;">关注</a>
+        <a href="javascript:void(0);" id="js_btn_view_profile" class="weui_btn weui_btn_plain_primary" >进入公众号</a>
+    </div>
+
+    </div>
+
+<script type="text/javascript">
+    var is_ok = 1;
+    var scene = "124" || "";
+    var a8scene = "3";
+    (function() {
+        var is_android = /(Android)/i.test(navigator.userAgent);
+
+        var __JSAPI__ = {
+            ready: function(onBridgeReady) {
+                var _onBridgeReady = function() {
+                    if (!!onBridgeReady) {
+                        onBridgeReady();
+                    }
+                };
+
+                if (typeof top.window.WeixinJSBridge == "undefined" || !top.window.WeixinJSBridge.invoke) {
+
+                    if (top.window.document.addEventListener) {
+                        top.window.document.addEventListener('WeixinJSBridgeReady', _onBridgeReady, false);
+                    } else if (top.window.document.attachEvent) {
+                        top.window.document.attachEvent('WeixinJSBridgeReady', _onBridgeReady);
+                        top.window.document.attachEvent('onWeixinJSBridgeReady', _onBridgeReady);
+                    }
+                } else {
+
+                    _onBridgeReady();
+                }
+            },
+            invoke: function(methodName, args, callback) {
+                this.ready(function() {
+
+                    if (typeof top.window.WeixinJSBridge != "object" ) {
+                        alert("请在微信中打开此链接！");
+                        return false;
+                    }
+                    top.window.WeixinJSBridge.invoke(methodName, args, function(ret){
+                        if (!!callback) {
+                            callback.apply(window, arguments);
+                            var err_msg = ret && ret.err_msg ? ", err_msg-> " + ret.err_msg : "";
+                            console.info("[jsapi] invoke->" + methodName + err_msg);
+                        }
+                    });
+                });
+            }
+        }
+        var __Ajax__ = function(obj) {
+
+            var type = (obj.type || 'GET').toUpperCase();
+            var async = typeof obj.async == 'undefined' ? true : obj.async;
+            var url = obj.url;
+            var xhr = new XMLHttpRequest();
+            var timer = null;
+            var data = null;
+
+            if (typeof obj.data == "object"){
+                var d = obj.data;
+                data = [];
+                for(var k in d) {
+                    if (d.hasOwnProperty(k)){
+                        data.push(k + "=" + encodeURIComponent(d[k]));
+                    }
+                }
+                data = data.join("&");
+            }else{
+                data = typeof obj.data  == 'string' ? obj.data : null;
+            }
+
+            xhr.open(type, url, async);
+            var _onreadystatechange = xhr.onreadystatechange;
+
+            xhr.onreadystatechange = function() {
+
+                if (typeof _onreadystatechange == 'function') {
+                    _onreadystatechange.apply(xhr);
+                }
+                if ( xhr.readyState == 3 ) {
+                    obj.received && obj.received(xhr);
+                }
+                if ( xhr.readyState == 4 ) {
+                    xhr.onreadystatechange = null;
+                    var status = xhr.status;
+                    if ( status >= 200 && status < 400 ) {
+                        var responseText = xhr.responseText;
+                        var resp = responseText;
+                        if (obj.dataType == 'json'){
+                            try{
+                                resp = eval("(" + resp + ")");
+                            }catch(e){
+                                obj.error && obj.error(xhr);
+                                return;
+                            }
+                        }
+                        obj.success && obj.success(resp);
+                    } else {
+                        obj.error && obj.error(xhr);
+                    }
+                    clearTimeout(timer);
+                    obj.complete && obj.complete();
+                    obj.complete = null;
+                }
+            };
+            if( type == 'POST' ){
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+            }
+            xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+            if( typeof obj.timeout != 'undefined' ){
+                timer = setTimeout(function(){
+                    xhr.abort("timeout");
+                    obj.complete && obj.complete();
+                    obj.complete = null;
+                }, obj.timeout);
+            }
+            try{
+                xhr.send(data);
+            } catch ( e ) {
+                obj.error && obj.error();
+            }
+        }
+        if (navigator.userAgent.indexOf("WindowsWechat") != -1) {
+            __Ajax__({
+                type: 'POST',
+                dataType: 'json',
+                url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket,
+                data: {
+                    __biz: 'MzA4MjEyNTA5Mw==',
+                    scene: scene,
+                    url_list: ''
+                },
+                success: function(res) {}
+            });
+            return ;
+        }
+        __JSAPI__.invoke('getRouteUrl', {}, function(res) {
+            if (res.err_msg.indexOf('ok') != -1) {
+                var url = res.urls;
+                if (is_android) {
+                    url = JSON.parse(url);
+                }
+                __Ajax__({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket,
+                    data: {
+                        __biz: 'MzA4MjEyNTA5Mw==',
+                        scene: scene,
+                        url_list: JSON.stringify({url_list: url})
+                    },
+                    success: function(res) {
+                        console.log(res);
+                        if (res.is_ok == 0) {
+                            document.getElementById('js_button').style.display = 'none';
+                            is_ok = 0;
+                        } else {
+                            document.getElementById('js_button').style.display = '';
+                            if (a8scene == 3) {
+                                var offset = +document.getElementsByClassName('js_tag')[0].offsetTop - 15;
+                                window.scrollTo(0, offset);
+                            }
+                            is_ok = 1;
+                        }
+                    }
+                });
+            } else {
+                document.getElementById('js_button').style.display = '';
+                if (a8scene == 3) {
+                    var offset = +document.getElementsByClassName('js_tag')[0].offsetTop - 15;
+                    window.scrollTo(0, offset);
+                }
+                __Ajax__({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket,
+                    data: {
+                        __biz: 'MzA4MjEyNTA5Mw==',
+                        scene: scene,
+                        url_list: ''
+                    },
+                    success: function(res) {}
+                });
+            }
+        });
+    })();
+
+</script>
+
+<div class="weui_category_title js_tag">所有消息</div>
+<div class="weui_msg_card_list" id="js_msg_card">
+
+</div>
+<div class="loadmore" style="" id="js_loading">
+    <div class="tips_wrp"><i class="icon_loading"></i><span class="tips">正在加载</span></div>
+</div>
+<div class="loadmore with_line" style="display:none;" id="js_nomore">
+    <div class="tips_wrp">
+                <span class="tips">已无更多</span>
+            </div>
+</div>
+
+
+        <script nonce="">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2f3e84.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="">
+(function() {
+        function _addVConsole(uri) {
+                var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+                document.write('<script nonce="" type="text/javascript" src="' + url + '"><\/script>');
+        }
+        if (
+                (document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+                || location.href.indexOf('vconsole=1') > -1
+        ) {
+                _addVConsole('2.5.1/vconsole.min.js');
+                _addVConsole('plugin/vconsole-elements/1.0.2/vconsole-elements.min.js');
+                _addVConsole('plugin/vconsole-sources/1.0.1/vconsole-sources.min.js');
+                _addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+                _addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+        }
+})();
+</script>
+
+        <script>window.__moon_host = 'res.wx.qq.com';window.moon_map = {"biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2fb01a.js","biz_common/template-2.0.1-cmd.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/template-2.0.1-cmd275627.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk30bcdd.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_common/utils/string/emoji.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/emoji275627.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax3274c9.js","history/profile_history.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/profile_history.html322696.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","history/template_helper.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/template_helper24f185.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib30b785.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2ffa93.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk315b3f.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event32e586.js","history/profile_history.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/profile_history32c414.js","appmsg/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/profile32c414.js"};</script><script type="text/javascript">window.__wxgspeeds={}; window.__wxgspeeds.moonloadtime=+new Date()</script><script  type="text/javascript" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon32ebc4.js"></script>
+<script type="text/javascript">
+    if (navigator.userAgent.indexOf("WindowsWechat") != -1) {
+        document.getElementById('js_button').style.display = '';
+    }
+    document.domain = "qq.com";
+
+    var username = "" || "gh_0d9f6e7057c4";
+    var is_subscribed = ""*1;
+    var action = "home" || "";
+    var sn = window.encodeURIComponent("" || "");
+    var bizacct_type = "" || "";
+
+    var aid = "";
+    var mid = "";
+    var idx = "";
+    var tid = "";
+    var can_msg_continue = '1';
+
+    var pass_ticket = "BJbPIE875/5Etuic5j5rV2huqJx7dog0DZ4XXjAA4bZo5XdlZLMnpb47buPuZs+i" || "";
+    var uin = "MTYzNTE5ODIwMA==" || "";
+    var key = "6d0d8d04237042514044e4da0f5d61d75686879200b948c5679a62cc19355f303927681f0fa09cf40feff4cf07a53a083afdbe6daa5f53565494da176f6210873e3313691fde1a3d41d88d0ea4fa6615" || "";
+    var headimg = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6hTCD50H6PaCspsyUarU0oT7bE3evufzsuDKPZxhYFMQ/0" || "";
+    var nickname = "Python开发者" || "";
+    var is_banned = "0" || "";
+
+    var __biz = "MzA4MjEyNTA5Mw==";
+    var biz = __biz;
+
+        var msgList = '{&quot;list&quot;:[{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000211,&quot;type&quot;:49,&quot;datetime&quot;:1485351731,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;HTTP&nbsp;长连接和短连接&quot;,&quot;digest&quot;:&quot;本文对HTTP&nbsp;长连 接和短连接等概念进行了介绍。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564605&amp;amp;idx=1&amp;amp;sn=9f55de99be5562eaa05785ffc869f6f5&amp;amp;chksm=8464c437b3134d2108ef376059ed4de3c92f5bf6e877aa18ffcfc509cb01f20f576871a2e2c9&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.cnblogs.com\\/0201zcr\\/p\\/4694945.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/fhujzoQe7TpAmYpEnr5f4sQm255HVamwg9H5SlM4QXZja4dib9ECFEWDBLTicl0S4uib8HhNl4CaUxoJ4b9XX6icUA\\/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;从零开始的&nbsp;Python&nbsp;爬虫速成指南&quot;,&quot;digest&quot;:&quot;本文主要内容： 以最短的时间写一个最简单的爬虫，可以抓取论坛的帖子标题和帖子内容。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:401191762,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564605&amp;amp;idx=2&amp;amp;sn=2f1a68883772391ac22b08fb6df9348c&amp;amp;chksm=8464c437b3134d210cac1d65bcea9e8c7dd9f0d768dc629c14a39905fc64addf6c96bc39b69a&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;https:\\/\\/segmentfault.com\\/a\\/1190000008135000&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7Tp12R0ZUvaAfZvAJ0AxRKN3mVss9QF4fzuF6vkACYZEEJNDCesrWRtETZicJ4QgQGc2UiblMdC8SHmQ\\/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000210,&quot;type&quot;:49,&quot;datetime&quot;:1485268160,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;趣图：请相信我，我是工程师&quot;,&quot;digest&quot;:&quot;趣图：请相信我，我是工程师&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080954,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564603&amp;amp;idx=1&amp;amp;sn=47ff8ac189691e0fb2039aba6b2136fe&amp;amp;chksm=8464c431b3134d27d55b31d145981db50fc44398fca6bd57180dae248108a5e38d6a98085efc&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_png\\/fhujzoQe7ToybguKmOeZuPhAeo08HyeEXchEBsvT183OiaWRdfNrDBw1GNu1w4dVH2wsAyVWiasXYiaOb66jpHhibA\\/0?wx_fmt=png&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;Python&nbsp;中的单例模式&quot;,&quot;digest&quot;:&quot;单例模式是一种常用的软件设计模式，该模式的主要目的是确保某一个类只有一个实例存在。当你希望在整个系统中，某个类只能出现一个实例时，单例对象就能派上用场。在&nbsp;Python&nbsp;中，我们可以用多种方法来实现单例模式。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:400704984,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564603&amp;amp;idx=2&amp;amp;sn=25de14fbb96d842268f4f5b1a053eb94&amp;amp;chksm=8464c431b3134d2756d7da8a61ef7ac1e09b31033bc6a2c16dbb11bf2af391e0870ea866197a&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;https:\\/\\/segmentfault.com\\/a\\/1190000008141049&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7TouXV4ibn2cheFXc9Cvd58nmoGgnLBjLdgyVvQ3WT1tdhsEzyiaIRhq4t1CEjIn6dNTIAVMCGCGUYicA\\/0?wx_fmt=png&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000209,&quot;type&quot;:49,&quot;datetime&quot;:1485173831,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;Wireshark&nbsp;基本介绍和学习&nbsp;TCP&nbsp;三次握手&quot;,&quot;digest&quot;:&quot;本文介绍另一个好用的抓包工具&nbsp;Wireshark，&nbsp;用来获取网络数据封包，包括&nbsp;HTTP、TCP、UDP&nbsp;等网络协议包。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080948,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564598&amp;amp;idx=1&amp;amp;sn=c51a6fb4bd6279b2739cf896625661ee&amp;amp;chksm=8464c43cb3134d2a38ee77104eb91e2181730247bcdd51b18c22ae85c6611412bc3ad55b7424&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.cnblogs.com\\/TankXiao\\/archive\\/2012\\/10\\/10\\/2711777.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_png\\/fhujzoQe7Tp6mrMOuic0TWJzwhFPEXo6ZGfcx7H0Kcj0IztZcQEjib46Id2B9KIAEoo3prjWthzQoX1UQemCNXaQ\\/0?wx_fmt=png&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;Python&nbsp;并发编程之线程池\\/进程池&quot;,&quot;digest&quot;:&quot;从Python3.2开始，标准库为我们提供了concurrent.futures模块，实现了对threading和multiprocessing的进一步抽象，对编写线程池\\/进程池提供了直接的支持。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:211197040,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564598&amp;amp;idx=2&amp;amp;sn=47f3c96d82ea2a52f3406e3cc89bca0d&amp;amp;chksm=8464c43cb3134d2abe95250db149a9e986a77513a81c3fa702a5ccc54fb2ead39f1962beb018&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.ziwenxie.site\\/2016\\/12\\/24\\/python-concurrent-futures\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/fhujzoQe7Tp6mrMOuic0TWJzwhFPEXo6ZfTLL2xUE7AjjoXKIBTVsiavUojkEB7QZaicicKQjgXE6AWdgibmx5dO6Lg\\/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000208,&quot;type&quot;:49,&quot;datetime&quot;:1485091480,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;日常使用&nbsp;Git&nbsp; 的&nbsp;19&nbsp;个建议&quot;,&quot;digest&quot;:&quot;我使用Git已经有4年之久，在这里想分享一些实用的小技巧，希望能对大家有所帮助。\\\\n如果你对git一无所知，那么我建议先去读一下Git&nbsp;常 用命令速查。本篇文章主要适合有一定&nbsp;git&nbsp;使用基础的人群。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080645,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564594&amp;amp;idx=1&amp;amp;sn=76a7c32885f2d7958b6e682135186e5b&amp;amp;chksm=8464c438b3134d2ef6695aa0b31dc3e8ab7e6ce565af1a6666430799633a0b66658284c087a5&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/blog.jobbole.com\\/96088\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/fhujzoQe7Tr7Pq6diaz3lPkNtaS8AmIYLxbR5mo9MFF967ibrHS6QpgCaAFnXTfLQefOtI7euMW9O9rV2xw1ohXw\\/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;在&nbsp;Linux&nbsp;上使用&nbsp;Python&nbsp;和&nbsp;Flask&nbsp;创建你的第一个应用&quot;,&quot;digest&quot;:&quot;本篇教程中我会带你使用python和一个称为flask的微型框架来构建一个简单的应用，来显示诸如每个进程的内存使用，CPU百分比之类有用的信息。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:210712869,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564594&amp;amp;idx=2&amp;amp;sn=2aff5e0268e918e5eb5f13d11ca2a2a2&amp;amp;chksm=8464c438b3134d2e00360d7b1aa9093af7b5607f643296bd0e2aed9a160425990446a285bd4d&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;https:\\/\\/linux.cn\\/article-5044-2.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7ToessW5nG0ickojhz5VTNVxjblFgopRaYeLWAETWzEDA2mAoRqoia3ouQbicbgq7bqlWT43HVfGvDWEg\\/s640?&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:101}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000207,&quot;type&quot;:49,&quot;datetime&quot;:1485002083,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;如何做到老板来了就自动切换桌面（含源码）&quot;,&quot;digest&quot;:&quot;当你工作的时候，肯定会浏览一些与工作无关的东西，别说你没有过。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564592&amp;amp;idx=1&amp;amp;sn=198ecd3b11875848949f8a8ecfc66cba&amp;amp;chksm=8464c43ab3134d2c142142b4f1c29ad2695dfcd129ac11fff273f1fadce7575d09a6bd1c95dc&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/blog.jobbole.com\\/109895\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/KovAgJ2aWyaLibPIAic6TShyOtvVENb3RA2BAamr1dFyIlhAYXDBhBxQnSpcOAVWDTyQYacBcPkn3nYdqUicvDz7w\\/640?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;Python&nbsp;Web部署方式总结&quot;,&quot;digest&quot;:&quot;php的正式环境部署非常简单，改几个文件就OK，用FastCgi方式也是分分钟的事情。相比 起来，Python在web应用上的部署就繁杂的多，主要是工具繁多，主流服务器支持不足，在了解Python的生 产环境部署方式之前，先明确一些概念很重要！&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:401191762,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564592&amp;amp;idx=2&amp;amp;sn=d68284714edd82fb7976cf2f00e621a0&amp;amp;chksm=8464c43ab3134d2c01705ea03910560d89b2efec936e02a4794991243450fb9642e006447266&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.cnblogs.com\\/titanjf\\/p\\/python-web-deploy.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7Tp12R0ZUvaAfZvAJ0AxRKN3mVss9QF4fzuF6vkACYZEEJNDCesrWRtETZicJ4QgQGc2UiblMdC8SHmQ\\/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:101}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000206,&quot;type&quot;:49,&quot;datetime&quot;:1484883188,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;趣图：老板催我去重构遗留的&nbsp;Python&nbsp;代码&quot;,&quot;digest&quot;:&quot;喵了个咪的，老板催我去重构遗留的&nbsp;Python&nbsp;代码&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564590&amp;amp;idx=1&amp;amp;sn=d2da5f586c99fadfc9b86bc9961be33e&amp;amp;chksm=8464c424b3134d3298091bdbe3fbffdea0610e608fbd9e955bfcb9eb13d0584f3332695008af&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_gif\\/fhujzoQe7Tq0BqA36xch0KW3WQlemkd5WXENrrWjm6NpS7q5NOoq9uhsiakxv4762qZIjkBicJcCoSMZkRy18mSg\\/s640&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;使用&nbsp;Python&nbsp;的&nbsp;Socket&nbsp;模块构建一个&nbsp;UDP&nbsp;扫描工具&quot;,&quot;digest&quot;:&quot; 几周前，我曾经谈到了如何使用Wireshark来进行数据包嗅探，但如果你没有wireshark，你如何去监控网络流量呢？&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:210712869,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564590&amp;amp;idx=2&amp;amp;sn=d810f361d798144ca3cf641991977aeb&amp;amp;chksm=8464c424b3134d3235946771b28ca1d6de3769c596ea896e18b01975f78b925dd3008d39e301&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.oschina.net\\/translate\\/building-a-udp-scanner-with-pythons-socket-module&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7ToessW5nG0ickojhz5VTNVxjblFgopRaYeLWAETWzEDA2mAoRqoia3ouQbicbgq7bqlWT43HVfGvDWEg\\/s640?&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000205,&quot;type&quot;:49,&quot;datetime&quot;:1484807857,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;春节大礼包！&nbsp;阿里双11技术电子书PDF开放下载！&quot;,&quot;digest&quot;:&quot;春节大礼包！&nbsp;阿里双11技术电子书PDF开放下载！&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080940,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564589&amp;amp;idx=1&amp;amp;sn=48a9d8af55911aaa361dc77b93c9f161&amp;amp;chksm=8464c427b3134d31ffc9a165d7a599eae19e5948d28fcc54f6ed7ca9a19077c5bf18e6eb3aa1&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;https:\\/\\/102.alibaba.com\\/newsInfo.htm?newsId=28&amp;amp;channel=102&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_png\\/fhujzoQe7Tq0BqA36xch0KW3WQlemkd5t1VOVUrppiaiasGEb0hteQCl7GjzAfic8bX43QXZYPUnLQD9uMF4xasqA\\/0?wx_fmt=png&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;OSINT&nbsp;+&nbsp;Python&nbsp;=&nbsp;自定义黑客&quot;,&quot;digest&quot;:&quot;在这个课程中，我觉得与会者对学习怎样开发出简单的工具（脚本）是很感兴趣的，这使得他们可以通过使用Python，通过每个有特定目标的一系列实践锻炼，去执行OSINT工作。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:401191762,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564589&amp;amp;idx=2&amp;amp;sn=e2839621f4000eeb132dd160fc0fb7cf&amp;amp;chksm=8464c427b3134d31c7c5a59c14e3c8d76625663ec6e85bf7b2071375329b77cf155a51e7eb9c&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.oschina.net\\/translate\\/osint-python-custom-hacking?print&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7Tp12R0ZUvaAfZvAJ0AxRKN3mVss9QF4fzuF6vkACYZEEJNDCesrWRtETZicJ4QgQGc2UiblMdC8SHmQ\\/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000204,&quot;type&quot;:49,&quot;datetime&quot;:1484741952,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;如何用树莓派和&nbsp;Kali&nbsp;Linux&nbsp;搭建一个便携式的黑客工作站&quot;,&quot;digest&quot;:&quot;攻破Wi-Fi密码、伪装账户和测试网络漏洞都已经够有趣了，但是如果你想在路途中完成这些操 作，就会需要一个简易便携的装备。不妨考虑一下&nbsp;Kali&nbsp;Linux&nbsp;和树莓派。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564574&amp;amp;idx=1&amp;amp;sn=fa2136f1a3f07dca5b0b6611b3dbf5dd&amp;amp;chksm=8464c414b3134d021a800778152d274b7e340cd40aacbd1333de05297e3dc76e7e7c4bdddb60&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/blog.jobbole.com\\/95031\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/fhujzoQe7TocicJoYXpmXxsOLcaKQ7EsQAJ5hmCjzkx5gc6BbIwxbKE68o3dP83GSUG18WlBkD54EyAcibhNXCZw\\/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;Python&nbsp;打包分发工具&nbsp;setuptools&nbsp;简介&quot;,&quot;digest&quot;:&quot;作为Python标准的打包及分发工具，setuptools可以说相当地简单易用。 它会随着Python一起安装在你的机器上。你只需写一个简短的setup.py安装文件，就可以将你的Python应用打包。本文介绍如何编写安装文件及如何打包分发。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:210712869,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564574&amp;amp;idx=2&amp;amp;sn=2cfa8e8e99d5eca6b22e4023f43f623e&amp;amp;chksm=8464c414b3134d021fb435e9bdf9e7c0fc1730a30b701d17cf69a400770fe7ab690942d50dd7&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.bjhee.com\\/setuptools.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7ToessW5nG0ickojhz5VTNVxjblFgopRaYeLWAETWzEDA2mAoRqoia3ouQbicbgq7bqlWT43HVfGvDWEg\\/s640?&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:101}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000203,&quot;type&quot;:49,&quot;datetime&quot;:1484658611,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;为什么软件开发，人多事少，还会工作量大？&quot;,&quot;digest&quot;:&quot;本文所要分享的是 软件开发过程中，亲身经历过的“怪现象”。为什么说怪呢，人多力量大，似乎才符合常理，但是往往在软件项目开展的过程中会出现人多、事少、工作量大的情况，这跟我们以往的认知大相径庭。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080232,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564572&amp;amp;idx=1&amp;amp;sn=2f15336a3bc3720149288b666554a18b&amp;amp;chksm=8464c416b3134d00cb6b88f754dabda6a60efbd89e5c018af997cb13fb3f224604d284dd27ea&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.cnblogs.com\\/still-windows7\\/p\\/renshaoshiduogongzuoliangda.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7Tpcz6KoRtcpaK3oLcGfNv4RISoGLV154Q08YvmBLHicgNXmibSqf8JcQTh8whSKq3YkMic8uRd6iach7g\\/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;Python&nbsp;编程中的反模式&quot;,&quot;digest&quot;:&quot;这篇文章收集了我在Python新手开发者写的代码中所见到的不规范但偶尔又很微妙的问题。本文的目的是为了帮助那些新手开发者渡过写出丑陋的Python代码的阶段。为了照顾目标读者，本文做了一些简化.&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:400704984,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564572&amp;amp;idx=2&amp;amp;sn=01b4cc2eb541a1e5b75cd6c865256391&amp;amp;chksm=8464c416b3134d0067f4c469a78b7dfe0625ca7f21b48a3d58b105a80f276671af391e672402&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/python.jobbole.com\\/74252\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7TouXV4ibn2cheFXc9Cvd58nmoGgnLBjLdgyVvQ3WT1tdhsEzyiaIRhq4t1CEjIn6dNTIAVMCGCGUYicA\\/0?wx_fmt=png&quot;,&quot;author&quot;:&quot;伯乐专栏\\/小磊&quot;,&quot;copyright_stat&quot;:11}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000000202,&quot;type&quot;:49,&quot;datetime&quot;:1484570563,&quot;fakeid&quot;:&quot;3082125093&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;探索&nbsp;.git&nbsp;目录，让你真正了理解&nbsp;git&quot;,&quot;digest&quot;:&quot;网上已经有许多关于学习基本的&nbsp;git&nbsp;命令的文章，但是本文不属于这一类，而是 尝试另辟蹊径。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:505080645,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564570&amp;amp;idx=1&amp;amp;sn=679e44bf4f2fc1bc2da55772a7d618bc&amp;amp;chksm=8464c410b3134d060dc966e4bc8e2721018ab0916476ce840dce2ab9b89a429a9cfd1032eb75&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/blog.jobbole.com\\/98634\\/&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/fhujzoQe7Tr7Pq6diaz3lPkNtaS8AmIYLxbR5mo9MFF967ibrHS6QpgCaAFnXTfLQefOtI7euMW9O9rV2xw1ohXw\\/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;用&nbsp;greenlet&nbsp;实现&nbsp;Python&nbsp;中的并发&quot;,&quot;digest&quot;:&quot;这里我们要介绍一个非常好用的框架greenlet，很多知名的网络并发框架如eventlet，gevent都是基于它实现的。&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:211197040,&quot;content_url&quot;:&quot;http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzA4MjEyNTA5Mw==&amp;amp;mid=2652564570&amp;amp;idx=2&amp;amp;sn=be0a87320658f256fa864fcf8d5d6723&amp;amp;chksm=8464c410b3134d062a1edc882ba7d5e3c8653ec718ea6ad9c8174ec18a229e8a70408d50df1b&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;http:\\/\\/www.bjhee.com\\/gevent.html&quot;,&quot;cover&quot;:&quot;http:\\/\\/mmbiz.qpic.cn\\/mmbiz\\/fhujzoQe7ToHK0exNjINzianNicD97bDpELibtlJdLQq92SfZoHianuKDpt1TQotvZmVP7VJV8y8CcZ6eLia6VPNKpg\\/0?wx_fmt=png&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100}],&quot;author&quot;:&quot;伯乐在线&quot;,&quot;copyright_stat&quot;:11}}]}';
+        if(!!window.__initCatch){
+        window.__initCatch({
+            idkey : 29711,
+            startKey : 60,
+            badjsId: 47,
+
+            reportOpt : {
+                username : username,
+                sn : sn
+            }
+        });
+    }
+
+    seajs.use("appmsg/profile.js");
+</script>
+
+    </body>
+    <script nonce="" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->
